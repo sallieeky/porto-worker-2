@@ -83,7 +83,7 @@
       <div class="row">
         <div class="col-lg-4 py-3">
           <div class="img-place wow fadeInUp">
-            <img src="template/img/person.jpg" alt="">
+            <img src="images/foto.jpeg" style="object-fit: cover; height: 100%" alt="">
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 wow fadeInRight">
@@ -91,12 +91,12 @@
           <h5 class="fg-theme mb-3">Mahasiswa Sistem Informasi</h5>
           <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form but the majority have suffered alteration in some</p>
           <ul class="theme-list">
-            <li><b>Asal:</b> Texas, US</li>
-            <li><b>Tempat Tinggal:</b> Texas, US</li>
-            <li><b>Usia:</b> 25</li>
-            <li><b>Jenis Kelamin:</b> Male</li>
+            <li><b>Asal:</b> Balikpapan, Kalimantan Timur</li>
+            <li><b>Tempat, Tanggal Lahir:</b> Balikpapan, 31 Maret 2002</li>
+            <li><b>Usia:</b> 19 Tahun</li>
+            <li><b>Jenis Kelamin:</b> Perempuan</li>
           </ul>
-          <button class="btn btn-theme-outline">Download CV</button>
+          <a href="https://www.instagram.com/hanaakrmh_/" class="btn btn-theme-outline" target="_blank">Kunjungi Instagram</a>
         </div>
       </div>
     </div>
