@@ -4,7 +4,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Portofolio</title>
+	<title>Portofolio - Hana Karimah</title>
 
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
 	<link rel="stylesheet" href="login_assets/style.css">

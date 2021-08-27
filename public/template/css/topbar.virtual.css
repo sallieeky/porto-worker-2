@@ -85,13 +85,15 @@
   width: 100%;
   padding-top: 6px;
   padding-bottom: 6px;
-  background-color: rgba(104, 102, 102, 0.8);
+  background-color: rgba(255,148,204,.6);
+  /* background-color: rgba(104, 102, 102, 0.8); */
   z-index: 99;
 }
 
 .page-home .navbar.floating {
   top: 0;
-  background-color: #343a40;
+  background-color: rgb(97, 51, 75);
+  /* background-color: #343a40; */
 }
 
 .page-home .caption-header {
@@ -457,7 +459,8 @@
   display: block;
   margin: 0;
   padding: 50px 0;
-  background-color: #171925;
+  /* background-color: #171925; */
+  background-color: rgb(97,51,75);
   color: #9FA2AB;
 }
 

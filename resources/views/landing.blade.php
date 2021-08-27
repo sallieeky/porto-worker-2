@@ -8,7 +8,7 @@
   
   <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
   
-  <title>Portofolio</title>
+  <title>Portofolio - Hana Karimah</title>
 
   <link rel="shortcut icon" href="template/favicon.ico" type="image/x-icon">
   
@@ -58,7 +58,7 @@
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
+              <a href="#contact" class="nav-link" data-animate="scrolling">Kontak</a>
             </li>
           </ul>
           <ul class="nav ml-auto">
@@ -71,8 +71,8 @@
     </div> <!-- End Navbar -->
     <!-- Caption header -->
     <div class="caption-header text-center wow zoomInDown">
-      <h5 class="fw-normal">Welcome</h5>
-      <h1 class="fw-light mb-4">I'm <b class="fg-theme">Hana</b> Karimah</h1>
+      <h5 class="fw-normal">Selamat Datang</h5>
+      <h1 class="fw-light mb-4">Perkenalkan Aku <b class="fg-theme">Hana</b> Karimah</h1>
       <div class="badge">Mahasiswa Sistem Informasi</div>
     </div> <!-- End Caption header -->
     <div class="floating-button"><span class="ti-mouse"></span></div>
@@ -83,13 +83,13 @@
       <div class="row">
         <div class="col-lg-4 py-3">
           <div class="img-place wow fadeInUp">
-            <img src="images/foto.jpeg" style="object-fit: cover; height: 100%" alt="">
+            <img src="images/foto.jpeg" style="object-fit: cover; height: 100%; image-rendering: crisp-edges;" class="img-thumbnail" alt="">
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 wow fadeInRight">
           <h1 class="fw-light">Hana Karimah</h1>
           <h5 class="fg-theme mb-3">Mahasiswa Sistem Informasi</h5>
-          <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form but the majority have suffered alteration in some</p>
+          <p class="text-muted">Sangat termotivasi untuk mengembangkan sifat kepemimpinan, berkomunikasi dengan profesional di depan publik, dan mampu bekerjasama secara individu maupun kelompok dengan memahami berbagai karakteristik partner kerja.</p>
           <ul class="theme-list">
             <li><b>Asal:</b> Balikpapan, Kalimantan Timur</li>
             <li><b>Tempat, Tanggal Lahir:</b> Balikpapan, 31 Maret 2002</li>
@@ -163,27 +163,35 @@
           <h2 class="fw-normal">Pendidikan</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
-              <div class="title">2010</div>
+              <div class="title">2020</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Kuliah</h5>
+                <small class="fg-theme">INSTITUT TEKNOLOGI KALIMANTAN</small>
+                {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p> --}}
               </div>
             </li>
             <li>
-              <div class="title">2009</div>
+              <div class="title">2017 - 2020</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Sekolah Menengah Atas</h5>
+                <small class="fg-theme">SMA NEGERI 5 BALIKPAPAN SELATAN</small>
+                {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p> --}}
               </div>
             </li>
             <li>
-              <div class="title">2008</div>
+              <div class="title">2014 - 2017</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Sekolah Menengah Pertama</h5>
+                <small class="fg-theme">SMP NEGERI 5 BALIKPAPAN SELATAN</small>
+                {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p> --}}
+              </div>
+            </li>
+            <li>
+              <div class="title">2008 - 2014</div>
+              <div class="details">
+                <h5>Sekolah Dasar</h5>
+                <small class="fg-theme">SDIT AL-AULIYA 1</small>
+                {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p> --}}
               </div>
             </li>
           </ul>
@@ -192,27 +200,35 @@
           <h2 class="fw-normal">Pengalaman</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
-              <div class="title">2017 - Current</div>
+              <div class="title">2021</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Panitia Acara INSPACE 2021</h5>
+                <small class="fg-theme">INSTITUT TEKNOLOGI KALIMANTAN</small>
+                {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p> --}}
               </div>
             </li>
             <li>
-              <div class="title">2014</div>
+              <div class="title">2021</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Panitia CREATION 2021</h5>
+                <small class="fg-theme">INSTITUT TEKNOLOGI KALIMANTAN</small>
+                {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p> --}}
               </div>
             </li>
             <li>
-              <div class="title">2011</div>
+              <div class="title">2021</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Divisi Acara ROC ITK 2021</h5>
+                <small class="fg-theme">INSTITUT TEKNOLOGI KALIMANTAN</small>
+                {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p> --}}
+              </div>
+            </li>
+            <li>
+              <div class="title">2020</div>
+              <div class="details">
+                <h5>LKMM PRA-TD VI</h5>
+                <small class="fg-theme">INSTITUT TEKNOLOGI KALIMANTAN</small>
+                {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p> --}}
               </div>
             </li>
           </ul>
@@ -221,7 +237,7 @@
     </div>
   </div>
   
-  <div class="vg-page page-service">
+  {{-- <div class="vg-page page-service">
     <div class="container">
       <div class="text-center wow fadeInUp">
         <div class="badge badge-subhead">Service</div>
@@ -297,7 +313,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
   
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
@@ -440,9 +456,9 @@
   <div class="vg-page page-contact" id="contact">
     <div class="container-fluid">
       <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Contact</div>
+        <div class="badge badge-subhead">Kontak</div>
       </div>
-      <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
+      <h1 class="text-center fw-normal wow fadeInUp">Kenal Lebih Dekat</h1>
       <div class="row py-5">
         <div class="col-lg-7 px-0 pr-lg-3 wow zoomIn">
           <div class="vg-maps">
@@ -474,42 +490,42 @@
   
   <!-- Footer -->
   <div class="vg-footer">
-    <h1 class="text-center">Virtual Folio</h1>
+    <h1 class="text-center">Portofolio Hana</h1>
     <div class="container">
       <div class="row">
         <div class="col-lg-4 py-3">
           <div class="footer-info">
-            <p>Where to find me</p>
+            <p>Alamat</p>
             <hr class="divider">
-            <p class="fs-large fg-white">1600 Amphitheatre Parkway Mountain View, California 94043 US</p>
+            <p class="fs-large fg-white">Jl. Telaga Mas RT 52 Sepinggan, Balikpapan Selatan</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 py-3">
           <div class="float-lg-right">
-            <p>Follow me</p>
+            <p>Social Media</p>
             <hr class="divider">
             <ul class="list-unstyled">
-              <li><a href="#">Instagram</a></li>
+              <li><a href="https://www.instagram.com/hanaakrmh_" target="_blank">Instagram</a></li>
               <li><a href="#">Facebook</a></li>
               <li><a href="#">Twitter</a></li>
               <li><a href="#">Youtube</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 py-3">
+        <div class="col-md-6 col-lg-5 py-3">
           <div class="float-lg-right">
-            <p>Contact me</p>
+            <p>Kontak</p>
             <hr class="divider">
             <ul class="list-unstyled">
-              <li>info@virtual.com</li>
-              <li>+8890234</li>
-              <li>+813023</li>
+              <li>10201044@student.itk.ac.id</li>
+              <li>+628 8888 8888</li>
+              <li>+628 8888 8888</li>
             </ul>
           </div>
         </div>
       </div>
       <div class="row justify-content-center mt-3">
-        <div class="col-12 mb-3">
+        {{-- <div class="col-12 mb-3">
           <h3 class="fw-normal text-center">Subscribe</h3>
         </div>
         <div class="col-lg-6">
@@ -519,7 +535,7 @@
               <input type="submit" class="btn btn-theme no-shadow" value="Subscribe">
             </div>
           </form>
-        </div>
+        </div> --}}
         <div class="col-12">
           <p class="text-center mb-0 mt-4">Copyright &copy;2020. All right reserved | This template is made with <span class="ti-heart fg-theme-red"></span> by <a href="https://www.macodeid.com/">MACode ID</a></p>
         </div>
