@@ -276,7 +276,7 @@
     </div>
   </div>
   
-  <div class="vg-page page-funfact" style="background-image: url(template/img/bg_banner.jpg);">
+  <div class="vg-page page-funfact" style="background-image: url(images/bg_tengah.jpg);">
     <div class="container">
       <div class="row section-counter">
         <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
@@ -322,23 +322,6 @@
           </div>
         </div>
         @endforeach
-        {{-- <div class="grid-item template wireframes wow zoomIn">
-          <div class="img-place" data-src="storage/images/work-2.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Music App</h5>">
-            <img src="storage/images/work-2.jpg" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Music App</h5>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item apps ios wow zoomIn">
-          <div class="img-place" data-src="storage/images/work-3.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Gaming Dashboard</h5>">
-            <img src="storage/images/work-3.jpg" alt="">
-            <div class="img-caption">
-              <h5 class="fg-theme">Gaming Dashboard</h5>
-            </div>
-          </div>
-        </div> --}}
-      <!-- End gridder -->
     </div>
     @auth
       <div class="text-center wow ">
@@ -347,7 +330,8 @@
         </button>
       </div>
       @endauth
-  </div> <!-- End Portfolio page -->
+  </div> 
+  <!-- End Portfolio page -->
   
   
   
