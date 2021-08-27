@@ -63,7 +63,21 @@
           </ul>
           <ul class="nav ml-auto">
             <li class="nav-item">
-              <a href="@guest /login @endguest @auth /logout @endauth" class="btn btn-fab btn-theme no-shadow">HK</a>
+              @guest
+                <a href="/login" class="btn btn-fab btn-theme no-shadow">HK</a>
+              @endguest
+              @auth
+              <div class="btn-group">
+                <button type="button" class="btn btn-fab btn-theme no-shadow" style="border-radius: 50%" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  HK
+                </button>
+                <div class="dropdown-menu">
+                  <button class="dropdown-item" href="#" data-toggle="modal" data-target="#pesanModal">Pesan</button>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/logout">Logout</a>
+                </div>
+              </div>
+              @endauth
             </li>
           </ul>
         </div>
@@ -466,21 +480,22 @@
           </div>
         </div>
         <div class="col-lg-5">
-          <form class="vg-contact-form">
+          <form class="vg-contact-form" action="/pesan" method="POST">
+            @csrf
             <div class="form-row">
               <div class="col-12 mt-3 wow fadeInUp">
-                <input class="form-control" type="text" name="Name" placeholder="Your Name">
+                <input class="form-control" type="text" name="nama" placeholder="Nama">
               </div>
               <div class="col-6 mt-3 wow fadeInUp">
-                <input class="form-control" type="text" name="Email" placeholder="Email Address">
+                <input class="form-control" type="text" name="email" placeholder="Email">
               </div>
               <div class="col-6 mt-3 wow fadeInUp">
-                <input class="form-control" type="text" name="Subject" placeholder="Subject">
+                <input class="form-control" type="text" name="subjek" placeholder="Subjek">
               </div>
               <div class="col-12 mt-3 wow fadeInUp">
-                <textarea class="form-control" name="Message" rows="6" placeholder="Enter message here.."></textarea>
+                <textarea class="form-control" name="pesan" rows="6" placeholder="Masukkan Pesan ..."></textarea>
               </div>
-              <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
+              <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Kirim Pesan</button>
             </div>
           </form>
         </div>
@@ -575,6 +590,43 @@
       </div>
     </div>
   </div>
+
+  <!-- Pesan Modal -->
+  <div class="modal fade" id="pesanModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Pesan Masuk</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+          @if (count($pesan) < 1)
+            <div class="alert alert-success" role="alert">
+              <strong>Belum ada pesan masuk</strong>
+            </div>
+
+          @else
+          @foreach ($pesan as $ps)
+          <div class="card mb-3">
+            <div class="card-body">
+              <h4 class="card-title">{{ $ps->subjek }}</h4>
+              <p class="card-text"><strong>Nama :</strong> {{ $ps->nama }}</p>
+              <p class="card-text" style="margin-top: -10px"><strong>Email :</strong> {{ $ps->email }}</p>
+              <p class="card-text" style="margin-top: -10px"><strong>Pesan :</strong> {{ $ps->pesan }}</p>
+            </div>
+          </div>
+          @endforeach
+          @endif
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   @endauth
   
   

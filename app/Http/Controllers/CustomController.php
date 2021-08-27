@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pesan;
 use App\Models\Porto;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -11,7 +12,8 @@ class CustomController extends Controller
     public function landing()
     {
         $data = Porto::all();
-        return view('landing', compact('data'));
+        $pesan = Pesan::orderBy("id", "DESC")->get();
+        return view('landing', compact('data', 'pesan'));
     }
     public function tambahData(Request $request)
     {
@@ -43,6 +45,12 @@ class CustomController extends Controller
     public function logout()
     {
         Auth::logout();
+        return back();
+    }
+
+    public function kirimPesan(Request $request)
+    {
+        Pesan::create($request->all());
         return back();
     }
 }

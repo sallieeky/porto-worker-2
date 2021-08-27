@@ -18,6 +18,7 @@ Route::get('/', [CustomController::class, 'landing']);
 Route::post('/tambah', [CustomController::class, 'tambahData']);
 Route::get('/hapus/{id}', [CustomController::class, 'hapusData'])->middleware('auth');
 
+Route::post('/pesan', [CustomController::class, 'kirimPesan']);
 
 
 Route::get('/login', [CustomController::class, 'login'])->middleware('guest')->name('login');
