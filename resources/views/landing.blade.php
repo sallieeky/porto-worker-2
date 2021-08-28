@@ -10,7 +10,7 @@
   
   <title>Portofolio - Hana Karimah</title>
 
-  <link rel="shortcut icon" href="template/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/logohk.png" type="image/x-icon">
   
   <link rel="stylesheet" type="text/css" href="template/css/themify-icons.css">
   
@@ -119,27 +119,27 @@
       <div class="row py-3">
         <div class="col-md-6">
           <div class="px-lg-3">
-            <h4 class="wow fadeInUp">Coding skills</h4>
+            <h4 class="wow fadeInUp">Soft Skill</h4>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">JavaScript</span>
+              <span class="caption">Komunikasi dan Public Speaking</span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">86%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">PHP</span>
+              <span class="caption">Bekerja secara Individu maupun Kelompok</span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">HTML + CSS</span>
+              <span class="caption">Berkomunikasi secara Persuasif</span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">100%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Phyton</span>
+              <span class="caption">Mengikuti Instruksi dan Memberikan Hasil yang Terbaik </span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
               </div>
@@ -148,21 +148,21 @@
         </div>
         <div class="col-md-6">
           <div class="px-lg-3">
-            <h4 class="wow fadeInUp">Design Skills</h4>
+            <h4 class="wow fadeInUp">Hard Skill</h4>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">UI / UX Design</span>
+              <span class="caption">Programming Python</span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">92%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Web Design</span>
+              <span class="caption">Manajemen</span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">99%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Logo Design</span>
+              <span class="caption">Desain</span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 79%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">79%</div>
               </div>
@@ -257,7 +257,7 @@
       <div class="text-center wow fadeInUp">
         <div class="badge badge-subhead">Portfolio</div>
       </div>
-      <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
+      <h1 class="text-center fw-normal wow fadeInUp">Hasil Portofolio</h1>
       <div class="gridder my-3">
         @foreach ($data as $dt)
         <div class="grid-item apps wow zoomIn">
@@ -295,7 +295,7 @@
       <div class="row py-5">
         <div class="col-lg-7 px-0 pr-lg-3 wow zoomIn">
           <div class="vg-maps">
-            <div id="google-maps" style="width: 100%; height: 100%;"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.2479514282949!2d116.92432283089497!3d-1.2493664612444833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df145b267538d67%3A0x170ee0d78d4093f2!2sJl.%20Telaga%20Mas%20No.52%2C%20Sepinggan%2C%20Kecamatan%20Balikpapan%20Selatan%2C%20Kota%20Balikpapan%2C%20Kalimantan%20Timur%2076116!5e0!3m2!1sen!2sid!4v1630130313541!5m2!1sen!2sid" style="border:0; width:100%; height:100%" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
         <div class="col-lg-5">
@@ -461,7 +461,7 @@
   <script src="template/js/google-maps.js"></script>
     
   <script src="template/js/topbar-virtual.js"></script>
-
+  
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
   
 </body>

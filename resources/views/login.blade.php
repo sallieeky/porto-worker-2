@@ -8,6 +8,7 @@
 
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
 	<link rel="stylesheet" href="login_assets/style.css">
+  <link rel="shortcut icon" href="images/logohk.png" type="image/x-icon">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -19,7 +20,7 @@
 
 </head>
 
-<body style="background-color: #C0C0C0">
+<body style="background-color: #fff">
 
 	<div id="login">
 		
@@ -36,9 +37,9 @@
 			$(".alert").alert();
 		</script>
 
-		<form action="/login" method="POST">
+		<form action="/login" method="POST" >
 			@csrf
-			<fieldset>
+			<fieldset  style="background-color: #61334B65">
 				<p><label for="email">E-mail address</label></p>
 				<p><input type="email" id="email" name="email" required placeholder="Email" ></p> <!-- JS because of IE support; better: placeholder="mail@address.com" -->
 
