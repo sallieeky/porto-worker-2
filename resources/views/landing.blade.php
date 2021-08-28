@@ -252,7 +252,7 @@
   </div>
   
   <!-- Portfolio page -->
-  <div class="vg-page page-portfolio" id="portfolio">
+  <div class="vg-page page-portfolio" id="portfolio" style="padding-bottom: 0">
     <div class="container">
       <div class="text-center wow fadeInUp">
         <div class="badge badge-subhead">Portfolio</div>
@@ -303,16 +303,16 @@
             @csrf
             <div class="form-row">
               <div class="col-12 mt-3 wow fadeInUp">
-                <input class="form-control" type="text" name="nama" placeholder="Nama">
+                <input class="form-control" type="text" name="nama" placeholder="Nama" required>
               </div>
               <div class="col-6 mt-3 wow fadeInUp">
-                <input class="form-control" type="text" name="email" placeholder="Email">
+                <input class="form-control" type="text" name="email" placeholder="Email" required>
               </div>
               <div class="col-6 mt-3 wow fadeInUp">
-                <input class="form-control" type="text" name="subjek" placeholder="Subjek">
+                <input class="form-control" type="text" name="subjek" placeholder="Subjek" required>
               </div>
               <div class="col-12 mt-3 wow fadeInUp">
-                <textarea class="form-control" name="pesan" rows="6" placeholder="Masukkan Pesan ..."></textarea>
+                <textarea class="form-control" name="pesan" rows="6" placeholder="Masukkan Pesan ..." required></textarea>
               </div>
               <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Kirim Pesan</button>
             </div>
@@ -323,7 +323,7 @@
   </div> <!-- End Contact -->
   
   <!-- Footer -->
-  <div class="vg-footer">
+  <div class="vg-footer" style="margin-bottom: 0">
     <h1 class="text-center">Portofolio Hana</h1>
     <div class="container">
       <div class="row">
